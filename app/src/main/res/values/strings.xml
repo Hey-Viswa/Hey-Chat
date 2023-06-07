@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hey Chat</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="please_login_to_your_account">Please login to your account</string>
+    <string name="sign_in">Sign in</string>
+</resources>
