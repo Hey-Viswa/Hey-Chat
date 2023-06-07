@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-
     tools:context=".Register">
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -45,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_55sdp"
         android:layout_marginStart="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_20sdp"
         android:background="@drawable/rounded_back_dark_blue5_15"
         android:hint="Email"
@@ -55,27 +53,14 @@
         android:paddingEnd="@dimen/_20sdp"
         android:textSize="@dimen/_16ssp" />
 
-    <EditText
-        android:id="@+id/MobileEdt"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_55sdp"
-        android:layout_marginStart="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:layout_marginEnd="@dimen/_20sdp"
-        android:background="@drawable/rounded_back_dark_blue5_15"
-        android:hint="Mobile No"
-        android:inputType="phone"
-        android:maxLines="1"
-        android:paddingStart="@dimen/_20sdp"
-        android:paddingEnd="@dimen/_20sdp"
-        android:textSize="@dimen/_16ssp" />
+
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_55sdp"
         android:layout_marginStart="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_20sdp"
         android:background="@drawable/rounded_back_dark_blue5_15">
 
@@ -109,7 +94,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_55sdp"
         android:layout_marginStart="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_20sdp"
         android:background="@drawable/rounded_back_dark_blue5_15">
 
@@ -152,7 +137,7 @@
         android:layout_marginStart="@dimen/_20sdp"
         android:text="Sign Up"
         android:textAllCaps="false"
-        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:background="@drawable/round_back_primary_15"
         android:textColor="@color/white"/>
 
@@ -165,11 +150,6 @@
             android:layout_marginEnd="@dimen/_20sdp"
             android:layout_marginStart="@dimen/_20sdp"
             android:layout_centerVertical="true"/>
-
-
-
-
-
 
 
     <LinearLayout
@@ -189,7 +169,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_5sdp"
-            android:text="Sign Up"
+            android:text="Sign In"
             android:textColor="@color/primary"
             android:textStyle="bold"/>
     </LinearLayout>
