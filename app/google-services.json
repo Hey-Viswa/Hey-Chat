@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420177540734",
+    "project_id": "hey-chat-1ada2",
+    "storage_bucket": "hey-chat-1ada2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420177540734:android:e257bd1d9d08b14b1c0a2f",
+        "android_client_info": {
+          "package_name": "com.heystudio.heychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420177540734-lmo206udis6vj2hh56ctndm3c24qgh5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB-CsM2-DT5OiqnmyoCoggZvYNHvx3TnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420177540734-lmo206udis6vj2hh56ctndm3c24qgh5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
