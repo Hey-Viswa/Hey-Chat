@@ -88,10 +88,11 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 final String getMobileTxt = mobile.getText().toString();
                 final String getEmailTxt = email.getText().toString();
-                // Opening OTP Verification
+                // Opening OTP Verification Activity along with mobile and email
                 Intent intent = new Intent(Register.this,OTPVerification.class);
                 intent.putExtra("mobile",getMobileTxt);
                 intent.putExtra("email",getEmailTxt);
+
                 startActivity(intent);
             }
         });
